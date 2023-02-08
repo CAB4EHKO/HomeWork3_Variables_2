@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         task1();
+        task2();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -18,5 +19,14 @@ public class Main {
         System.out.println("Значение переменной size c типом double равно: " + size);
         System.out.println("Значение переменной temp c типом float равно: " + temp);
         // Выводим переменные и их значения в консоль.
+    }
+    public static void task2() {
+        System.out.println("Задача 2");
+        float f = 27.12f;
+        long l = 987678965549l;
+        double d = 2.786;
+        short s = 569;
+        short sh = -159;
+        int i = 27897;
     }
 }
