@@ -5,7 +5,9 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
+
     public static void task1() {
         System.out.println("Задача 1");
         byte peas = 120;
@@ -23,6 +25,7 @@ public class Main {
         System.out.println("Значение переменной temp c типом float равно: " + temp);
         // Выводим переменные и их значения в консоль.
     }
+
     public static void task2() {
         System.out.println("Задача 2");
         float f = 27.12f;
@@ -32,6 +35,7 @@ public class Main {
         short sh = -159;
         int i = 27897;
     }
+
     public static void task3() {
         System.out.println("Задача 3");
         byte classStudents_1 = 23;
@@ -42,6 +46,7 @@ public class Main {
         int paperStudents = paper / countStudents;
         System.out.println("На каждого ученика расчитано " + paperStudents + " листов бумаги.");
     }
+
     public static void task4() {
         System.out.println("Задача 4");
         byte productMinute = 8;
@@ -55,6 +60,7 @@ public class Main {
         bottleDays *= 31;
         System.out.println("За месяц машина произвела " + bottleDays + " штук бутылок.");
     }
+
     public static void task5() {
         System.out.println("Задача 5");
         byte paintWhite = 2;
@@ -64,5 +70,20 @@ public class Main {
         int countPaintWhite = paintWhite * classOfschool;
         int countPaintBrown = paintBrown * classOfschool;
         System.out.println("В школе, где " + classOfschool + " классов, нужно " + countPaintWhite + " банок белой краски и " + countPaintBrown + " банок коричневой краски.");
+    }
+
+    public static void task6() {
+        System.out.println("Задача 6");
+        short banana = 80;
+        banana *= 5;
+        short milk = 105;
+        milk *= 2;
+        short iceCream = 100;
+        iceCream *= 2;
+        short egg = 70;
+        egg *= 4;
+        int countGrams = banana + milk + iceCream + egg;
+        double countKilograms = (double) countGrams / 1000;
+        System.out.println("Вес завтрака в граммах: " + countGrams + "\nВес завтрака в килограммах: " + countKilograms);
     }
 }
