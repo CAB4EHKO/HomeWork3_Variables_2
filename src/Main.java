@@ -7,38 +7,40 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
-        System.out.println("Задача 1");
+        System.out.println("Задача 1.");
         byte peas = 120;
         short chery = 32023;
-        int apple = 100500;
+        int apple = 100500800;
         long coconut = 9008007006005004000l;
         double size = 7.00062;
         float temp = 36.6f;
         // Объявляем переменные и инициализируем их.
         System.out.println("Значение переменной peas c типом byte равно: " + peas);
         System.out.println("Значение переменной chery c типом short равно: " + chery);
-        System.out.println("Значение переменной apple c типом byte равно: " + apple);
-        System.out.println("Значение переменной coconut c типом byte равно: " + coconut);
+        System.out.println("Значение переменной apple c типом int равно: " + apple);
+        System.out.println("Значение переменной coconut c типом long равно: " + coconut);
         System.out.println("Значение переменной size c типом double равно: " + size);
         System.out.println("Значение переменной temp c типом float равно: " + temp);
         // Выводим переменные и их значения в консоль.
     }
 
     public static void task2() {
-        System.out.println("Задача 2");
+        System.out.println("Задача 2.");
         float f = 27.12f;
         long l = 987678965549l;
         double d = 2.786;
         short s = 569;
         short sh = -159;
         int i = 27897;
+        System.out.println("float: " + f + "\nlong: " + l + "\ndouble: " + d + "\nshort: " + s + "\nshort: " + sh + "\nint: " + i);
     }
 
     public static void task3() {
-        System.out.println("Задача 3");
+        System.out.println("Задача 3.");
         byte classStudents_1 = 23;
         byte classStudents_2 = 27;
         byte classStudents_3 = 30;
@@ -49,7 +51,7 @@ public class Main {
     }
 
     public static void task4() {
-        System.out.println("Задача 4");
+        System.out.println("Задача 4.");
         byte productMinute = 8;
         int bottleMinute20 = productMinute * 20;
         System.out.println("За 20 минут машина произвела " + bottleMinute20 + " штук бутылок.");
@@ -63,7 +65,7 @@ public class Main {
     }
 
     public static void task5() {
-        System.out.println("Задача 5");
+        System.out.println("Задача 5.");
         byte paintWhite = 2;
         byte paintBrown = 4;
         int x = 120;
@@ -74,7 +76,7 @@ public class Main {
     }
 
     public static void task6() {
-        System.out.println("Задача 6");
+        System.out.println("Задача 6.");
         short banana = 80;
         banana *= 5;
         short milk = 105;
@@ -89,7 +91,7 @@ public class Main {
     }
 
     public static void task7() {
-        System.out.println("Задача 7");
+        System.out.println("Задача 7.");
         short targetKg = 7;
         int targetOfGrams = targetKg * 1000;
         short diet1 = 250;
@@ -98,5 +100,22 @@ public class Main {
         int daysToTarget2 = targetOfGrams / diet2;
         int avgDays = (daysToTarget1 + daysToTarget2) / 2;
         System.out.println("Нужно дней для похудения при первом варианте диеты: " + daysToTarget1 + "\nНужно дней для похудения при втором варианте диеты: " + daysToTarget2 + "\nСреднее кол-во дней: " + avgDays);
+    }
+
+    public static void task8() {
+        System.out.println("Задача 8.");
+        int k = 10;
+        int mashaBefore = 67760;
+        float mashaAfter = (mashaBefore * k) / 100 + mashaBefore;
+        float mashaDifference = mashaAfter - mashaBefore;
+        System.out.println("Маша теперь получает " + mashaAfter + " рублей. Годовой доход вырос на " + mashaDifference + " рублей.");
+        int denisBefore = 83690;
+        float denisAfter = (denisBefore * k) / 100 + denisBefore;
+        float denisDifference = denisAfter - denisBefore;
+        System.out.println("Денис теперь получает " + denisAfter + " рублей. Годовой доход вырос на " + denisDifference + " рублей.");
+        int kristinaBefore = 76230;
+        float kristinaAfter = (kristinaBefore * k) / 100 + kristinaBefore;
+        float kristinaDifference = kristinaAfter - kristinaBefore;
+        System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей.");
     }
 }
