@@ -3,6 +3,8 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
+        task5();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -39,5 +41,28 @@ public class Main {
         short paper = 480;
         int paperStudents = paper / countStudents;
         System.out.println("На каждого ученика расчитано " + paperStudents + " листов бумаги.");
+    }
+    public static void task4() {
+        System.out.println("Задача 4");
+        byte productMinute = 8;
+        int bottleMinute20 = productMinute * 20;
+        System.out.println("За 20 минут машина произвела " + bottleMinute20 + " штук бутылок.");
+        int minuteOfDays = 1440;
+        int bottleDays = productMinute * minuteOfDays;
+        System.out.println("За сутки машина произвела " + bottleDays + " штук бутылок.");
+        bottleDays *= 3;
+        System.out.println("За 3 дня машина произвела " + bottleDays + " штук бутылок.");
+        bottleDays *= 31;
+        System.out.println("За месяц машина произвела " + bottleDays + " штук бутылок.");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        byte paintWhite = 2;
+        byte paintBrown = 4;
+        int x = 120;
+        int classOfschool = x / (paintBrown + paintWhite);
+        int countPaintWhite = paintWhite * classOfschool;
+        int countPaintBrown = paintBrown * classOfschool;
+        System.out.println("В школе, где " + classOfschool + " классов, нужно " + countPaintWhite + " банок белой краски и " + countPaintBrown + " банок коричневой краски.");
     }
 }
