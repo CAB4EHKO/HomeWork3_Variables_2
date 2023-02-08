@@ -54,14 +54,14 @@ public class Main {
         System.out.println("Задача 4.");
         byte productMinute = 8;
         int bottleMinute20 = productMinute * 20;
-        System.out.println("За 20 минут машина произвела " + bottleMinute20 + " штук бутылок.");
+        System.out.println("За 20 минут машина произвела: " + bottleMinute20 + " штук бутылок.");
         int minuteOfDays = 1440;
         int bottleDays = productMinute * minuteOfDays;
-        System.out.println("За сутки машина произвела " + bottleDays + " штук бутылок.");
+        System.out.println("За сутки машина произвела: " + bottleDays + " штук бутылок.");
         bottleDays *= 3;
-        System.out.println("За 3 дня машина произвела " + bottleDays + " штук бутылок.");
+        System.out.println("За 3 дня машина произвела: " + bottleDays + " штук бутылок.");
         bottleDays *= 31;
-        System.out.println("За месяц машина произвела " + bottleDays + " штук бутылок.");
+        System.out.println("За месяц машина произвела: " + bottleDays + " штук бутылок.");
     }
 
     public static void task5() {
