@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -85,5 +86,17 @@ public class Main {
         int countGrams = banana + milk + iceCream + egg;
         double countKilograms = (double) countGrams / 1000;
         System.out.println("Вес завтрака в граммах: " + countGrams + "\nВес завтрака в килограммах: " + countKilograms);
+    }
+
+    public static void task7() {
+        System.out.println("Задача 7");
+        short targetKg = 7;
+        int targetOfGrams = targetKg * 1000;
+        short diet1 = 250;
+        short diet2 = 500;
+        int daysToTarget1 = targetOfGrams / diet1;
+        int daysToTarget2 = targetOfGrams / diet2;
+        int avgDays = (daysToTarget1 + daysToTarget2) / 2;
+        System.out.println("Нужно дней для похудения при первом варианте диеты: " + daysToTarget1 + "\nНужно дней для похудения при втором варианте диеты: " + daysToTarget2 + "\nСреднее кол-во дней: " + avgDays);
     }
 }
